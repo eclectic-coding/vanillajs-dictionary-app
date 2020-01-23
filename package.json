@@ -11,7 +11,9 @@
     "name": "Chuck Smith",
     "url": "https://eclecticsaddlebag.com"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.0"
+  },
   "browserslist": [
     "last 2 versions",
     "> 0.25%"
@@ -19,6 +21,8 @@
   "devDependencies": {
     "autoprefixer": "9.7.4",
     "browser-sync": "2.26.7",
+    "bulma": "^0.8.0",
+    "bulma-helpers": "^0.3.8",
     "cssnano": "4.1.10",
     "del": "5.1.0",
     "gulp": "4.0.2",
@@ -37,5 +41,10 @@
     "jshint-stylish": "2.2.1",
     "lazypipe": "1.0.2",
     "node-sass": "4.13.1"
+  },
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url src/scss/main.scss dist/css/main.css && node-sass --output-style compressed src/scss/main.scss dist/css/main.min.css",
+    "css-watch": "npm run css-build -- --watch",
+    "css": "npm run css-watch"
   }
 }

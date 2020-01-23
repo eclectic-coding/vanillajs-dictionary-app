@@ -1,29 +1,30 @@
-@charset "UTF-8";
+@charset "utf-8";
+@import "~bulma-helpers/css/bulma-helpers.min.css";
 
-// 1. Configuration and helpers
-@import 'abstracts/variables',
-'abstracts/functions',
-'abstracts/mixins';
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-// 2. Vendors
-@import "vendors/_normalize.css";
+// Set your brand colors
+$purple: #8A4D76;
+$pink: #FA7C91;
+$brown: #757763;
+$beige-light: #D0D1CD;
+$beige-lighter: #EFF0EB;
 
-// 3. Base stuff
-@import 'base/base',
-'base/fonts',
-'base/typography';
+// Update Bulma's global variables
+$family-sans-serif: "Muli", sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $purple;
+$link: $pink;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
 
-// 4. Layout-related sections
-@import 'layout/header',
-'layout/footer';
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+$control-border-width: 2px;
+$input-border-color: transparent;
+$input-shadow: none;
 
-// 5. Components
-@import 'components/button',
-'components/card',
-'components/form';
 
-// 6. Page-specific styles
-@import 'pages/home';
-
-// 7. Themes
-@import 'themes/default';
+@import "./node_modules/bulma/bulma.sass";

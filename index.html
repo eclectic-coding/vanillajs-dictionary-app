@@ -11,24 +11,58 @@
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="./dist/css/main.min.css">
+  <link rel="stylesheet" href="./dist/css/main.css">
 
   <meta name="theme-color" content="#fafafa">
 </head>
 
 <body>
-  <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
-  <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=default%2Ces6%2Ces7%2Cfetch%2CPromise%2CPromise.prototype.finally"></script>
-  <script src="src/js/main.js"></script>
+<nav class="navbar" role="navigation" aria-label="main navigation" style="margin-bottom: 2em; flex-grow: 1;
+justify-content: center;">
+  <div class="navbar-brand">
+    <h1 class="title is-4 has-text-primary" style="padding-top: 0.50em;">Dictionary App</h1>
+  </div>
+</nav>
 
-  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('set','transport','beacon'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async></script>
+<div class="container">
+  <div class="columns is-centered">
+    <div class="column is-half">
+      <div class="card is-half ">
+        <div class="card-header-title is-centered">
+          <h1 class="title is-4">Word Search</h1>
+        </div>
+        <div class="card-content">
+          <div class="field">
+            <label class="label">Search</label>
+            <div class="control has-icons-right">
+              <input type="text" class="input is-light" placeholder="Search for a word ...">
+              <span class="icon is-small is-right">
+                <i class="fas fa-envelope"></i>
+               </span>
+            </div>
+            <p>Results</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script crossorigin="anonymous"
+        src="https://polyfill.io/v3/polyfill.min.js?features=default%2Ces6%2Ces7%2Cfetch%2CPromise%2CPromise.prototype.finally"></script>
+<script src="src/js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"></script>
+
+<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+<!--<script>-->
+<!--  window.ga = function () { ga.q.push(arguments) }-->
+<!--  ga.q = []-->
+<!--  ga.l = +new Date-->
+<!--  ga('create', 'UA-XXXXX-Y', 'auto')-->
+<!--  ga('set', 'transport', 'beacon')-->
+<!--  ga('send', 'pageview')-->
+<!--</script>-->
+<!--<script src="https://www.google-analytics.com/analytics.js" async></script>-->
 </body>
 
 </html>
