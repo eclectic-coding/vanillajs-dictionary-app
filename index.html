@@ -16,7 +16,7 @@
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body>
+<body onload="loadWord()">
 <nav class="navbar has-margin-bottom-40" role="navigation" aria-label="main navigation" style="flex-grow: 1;
 justify-content: center;">
   <div class="navbar-brand">
@@ -31,17 +31,29 @@ justify-content: center;">
         <div class="card-header-title is-centered">
           <h1 class="title is-4">Word Search</h1>
         </div>
+        <!-- Search Form-->
         <div class="card-content">
           <div class="field">
             <label class="label">Search</label>
             <div class="control has-icons-right">
-              <input type="text" class="input is-light" placeholder="Search for a word ...">
-              <span class="icon is-right has-text-grey-dark has-background-white-ter">
+              <input type="text" name="search-term" class="input is-light" onkeydown="captureValue"
+                     placeholder="Search for a word ..."> <span
+              class="icon is-right has-text-grey-dark has-background-white-ter">
                 <i class="fas fa-search"></i>
                </span>
             </div>
-            <p>Results</p>
-            <div id="word"></div>
+            <!-- Word banner-->
+            <div id="word" class="is-size-3 has-text-weight-bold inline-list"></div>
+            <div id="pronunciation" class="italic inline-list has-padding-left-15"></div>
+            <!-- Tag Cloud-->
+            <div class="has-margin-top-10">Similiar:</div>
+            <div id="type-tags" class="flex"></div>
+            <!-- Begin Definition-->
+            <div class="is-italic has-text-weight-bold has-margin-top-10">Definition</div>
+            <div style="float: left;">
+              <span>1.</span>
+            </div>
+            <div id="definition" class="is-italic is-size-6" style="margin-left: 1em;"></div>
           </div>
         </div>
       </div>

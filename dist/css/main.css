@@ -23582,6 +23582,11 @@ table.is-completely-borderless tr {
   }
 }
 
+/* line 7, src/scss/main.scss */
+.inline-list {
+  display: inline-block;
+}
+
 /*! bulma.io v0.8.0 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {
   from {
@@ -23945,7 +23950,7 @@ th:not([align]) {
 
 /* line 32, node_modules/bulma/sass/base/generic.sass */
 html {
-  background-color: #EFF0EB;
+  background-color: white;
   font-size: 16px;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -23989,7 +23994,7 @@ pre {
 
 /* line 65, node_modules/bulma/sass/base/generic.sass */
 body {
-  color: #757763;
+  color: #4a4a4a;
   font-size: 1em;
   font-weight: 400;
   line-height: 1.5;
@@ -23997,7 +24002,7 @@ body {
 
 /* line 73, node_modules/bulma/sass/base/generic.sass */
 a {
-  color: #FA7C91;
+  color: #3273dc;
   cursor: pointer;
   text-decoration: none;
 }
@@ -24068,7 +24073,7 @@ fieldset {
 pre {
   -webkit-overflow-scrolling: touch;
   background-color: whitesmoke;
-  color: #757763;
+  color: #4a4a4a;
   font-size: 0.875em;
   overflow-x: auto;
   padding: 1.25rem 1.5rem;
@@ -24524,32 +24529,32 @@ a.has-text-dark:hover, a.has-text-dark:focus {
 
 /* line 99, node_modules/bulma/sass/base/helpers.sass */
 .has-text-primary {
-  color: #8A4D76 !important;
+  color: #00d1b2 !important;
 }
 
 /* line 102, node_modules/bulma/sass/base/helpers.sass */
 a.has-text-primary:hover, a.has-text-primary:focus {
-  color: #693b5a !important;
+  color: #009e86 !important;
 }
 
 /* line 105, node_modules/bulma/sass/base/helpers.sass */
 .has-background-primary {
-  background-color: #8A4D76 !important;
+  background-color: #00d1b2 !important;
 }
 
 /* line 99, node_modules/bulma/sass/base/helpers.sass */
 .has-text-link {
-  color: #FA7C91 !important;
+  color: #3273dc !important;
 }
 
 /* line 102, node_modules/bulma/sass/base/helpers.sass */
 a.has-text-link:hover, a.has-text-link:focus {
-  color: #f84b68 !important;
+  color: #205bbc !important;
 }
 
 /* line 105, node_modules/bulma/sass/base/helpers.sass */
 .has-background-link {
-  background-color: #FA7C91 !important;
+  background-color: #3273dc !important;
 }
 
 /* line 99, node_modules/bulma/sass/base/helpers.sass */
@@ -24644,12 +24649,12 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 
 /* line 109, node_modules/bulma/sass/base/helpers.sass */
 .has-text-grey-dark {
-  color: #757763 !important;
+  color: #4a4a4a !important;
 }
 
 /* line 111, node_modules/bulma/sass/base/helpers.sass */
 .has-background-grey-dark {
-  background-color: #757763 !important;
+  background-color: #4a4a4a !important;
 }
 
 /* line 109, node_modules/bulma/sass/base/helpers.sass */
@@ -24664,12 +24669,12 @@ a.has-text-danger:hover, a.has-text-danger:focus {
 
 /* line 109, node_modules/bulma/sass/base/helpers.sass */
 .has-text-grey-light {
-  color: #D0D1CD !important;
+  color: #b5b5b5 !important;
 }
 
 /* line 111, node_modules/bulma/sass/base/helpers.sass */
 .has-background-grey-light {
-  background-color: #D0D1CD !important;
+  background-color: #b5b5b5 !important;
 }
 
 /* line 109, node_modules/bulma/sass/base/helpers.sass */
@@ -25100,21 +25105,21 @@ a.has-text-danger:hover, a.has-text-danger:focus {
   border-radius: 6px;
   -webkit-box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
           box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-  color: #757763;
+  color: #4a4a4a;
   display: block;
   padding: 1.25rem;
 }
 
 /* line 20, node_modules/bulma/sass/elements/box.sass */
 a.box:hover, a.box:focus {
-  -webkit-box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px #FA7C91;
-          box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px #FA7C91;
+  -webkit-box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px #3273dc;
+          box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0 0 1px #3273dc;
 }
 
 /* line 23, node_modules/bulma/sass/elements/box.sass */
 a.box:active {
-  -webkit-box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #FA7C91;
-          box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #FA7C91;
+  -webkit-box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #3273dc;
+          box-shadow: inset 0 1px 2px rgba(10, 10, 10, 0.2), 0 0 0 1px #3273dc;
 }
 
 /* line 46, node_modules/bulma/sass/elements/button.sass */
@@ -25166,7 +25171,7 @@ a.box:active {
 
 /* line 82, node_modules/bulma/sass/elements/button.sass */
 .button:hover, .button.is-hovered {
-  border-color: #D0D1CD;
+  border-color: #b5b5b5;
   color: #363636;
 }
 
@@ -25178,13 +25183,13 @@ a.box:active {
 
 /* line 90, node_modules/bulma/sass/elements/button.sass */
 .button:focus:not(:active), .button.is-focused:not(:active) {
-  -webkit-box-shadow: 0 0 0 0.125em rgba(250, 124, 145, 0.25);
-          box-shadow: 0 0 0 0.125em rgba(250, 124, 145, 0.25);
+  -webkit-box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+          box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
 }
 
 /* line 92, node_modules/bulma/sass/elements/button.sass */
 .button:active, .button.is-active {
-  border-color: #757763;
+  border-color: #4a4a4a;
   color: #363636;
 }
 
@@ -25192,7 +25197,7 @@ a.box:active {
 .button.is-text {
   background-color: transparent;
   border-color: transparent;
-  color: #757763;
+  color: #4a4a4a;
   text-decoration: underline;
 }
 
@@ -25739,14 +25744,14 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 
 /* line 120, node_modules/bulma/sass/elements/button.sass */
 .button.is-primary {
-  background-color: #8A4D76;
+  background-color: #00d1b2;
   border-color: transparent;
   color: #fff;
 }
 
 /* line 124, node_modules/bulma/sass/elements/button.sass */
 .button.is-primary:hover, .button.is-primary.is-hovered {
-  background-color: #82486f;
+  background-color: #00c4a7;
   border-color: transparent;
   color: #fff;
 }
@@ -25759,13 +25764,13 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 
 /* line 133, node_modules/bulma/sass/elements/button.sass */
 .button.is-primary:focus:not(:active), .button.is-primary.is-focused:not(:active) {
-  -webkit-box-shadow: 0 0 0 0.125em rgba(138, 77, 118, 0.25);
-          box-shadow: 0 0 0 0.125em rgba(138, 77, 118, 0.25);
+  -webkit-box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
+          box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
 }
 
 /* line 135, node_modules/bulma/sass/elements/button.sass */
 .button.is-primary:active, .button.is-primary.is-active {
-  background-color: #7a4468;
+  background-color: #00b89c;
   border-color: transparent;
   color: #fff;
 }
@@ -25773,7 +25778,7 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 /* line 140, node_modules/bulma/sass/elements/button.sass */
 .button.is-primary[disabled],
 fieldset[disabled] .button.is-primary {
-  background-color: #8A4D76;
+  background-color: #00d1b2;
   border-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -25782,7 +25787,7 @@ fieldset[disabled] .button.is-primary {
 /* line 145, node_modules/bulma/sass/elements/button.sass */
 .button.is-primary.is-inverted {
   background-color: #fff;
-  color: #8A4D76;
+  color: #00d1b2;
 }
 
 /* line 148, node_modules/bulma/sass/elements/button.sass */
@@ -25797,7 +25802,7 @@ fieldset[disabled] .button.is-primary.is-inverted {
   border-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #8A4D76;
+  color: #00d1b2;
 }
 
 /* line 158, node_modules/bulma/sass/elements/button.sass */
@@ -25808,20 +25813,20 @@ fieldset[disabled] .button.is-primary.is-inverted {
 /* line 160, node_modules/bulma/sass/elements/button.sass */
 .button.is-primary.is-outlined {
   background-color: transparent;
-  border-color: #8A4D76;
-  color: #8A4D76;
+  border-color: #00d1b2;
+  color: #00d1b2;
 }
 
 /* line 164, node_modules/bulma/sass/elements/button.sass */
 .button.is-primary.is-outlined:hover, .button.is-primary.is-outlined.is-hovered, .button.is-primary.is-outlined:focus, .button.is-primary.is-outlined.is-focused {
-  background-color: #8A4D76;
-  border-color: #8A4D76;
+  background-color: #00d1b2;
+  border-color: #00d1b2;
   color: #fff;
 }
 
 /* line 172, node_modules/bulma/sass/elements/button.sass */
 .button.is-primary.is-outlined.is-loading::after {
-  border-color: transparent transparent #8A4D76 #8A4D76 !important;
+  border-color: transparent transparent #00d1b2 #00d1b2 !important;
 }
 
 /* line 178, node_modules/bulma/sass/elements/button.sass */
@@ -25833,10 +25838,10 @@ fieldset[disabled] .button.is-primary.is-inverted {
 .button.is-primary.is-outlined[disabled],
 fieldset[disabled] .button.is-primary.is-outlined {
   background-color: transparent;
-  border-color: #8A4D76;
+  border-color: #00d1b2;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #8A4D76;
+  color: #00d1b2;
 }
 
 /* line 186, node_modules/bulma/sass/elements/button.sass */
@@ -25849,12 +25854,12 @@ fieldset[disabled] .button.is-primary.is-outlined {
 /* line 190, node_modules/bulma/sass/elements/button.sass */
 .button.is-primary.is-inverted.is-outlined:hover, .button.is-primary.is-inverted.is-outlined.is-hovered, .button.is-primary.is-inverted.is-outlined:focus, .button.is-primary.is-inverted.is-outlined.is-focused {
   background-color: #fff;
-  color: #8A4D76;
+  color: #00d1b2;
 }
 
 /* line 201, node_modules/bulma/sass/elements/button.sass */
 .button.is-primary.is-inverted.is-outlined.is-loading:hover::after, .button.is-primary.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-primary.is-inverted.is-outlined.is-loading:focus::after, .button.is-primary.is-inverted.is-outlined.is-loading.is-focused::after {
-  border-color: transparent transparent #8A4D76 #8A4D76 !important;
+  border-color: transparent transparent #00d1b2 #00d1b2 !important;
 }
 
 /* line 203, node_modules/bulma/sass/elements/button.sass */
@@ -25869,34 +25874,34 @@ fieldset[disabled] .button.is-primary.is-inverted.is-outlined {
 
 /* line 213, node_modules/bulma/sass/elements/button.sass */
 .button.is-primary.is-light {
-  background-color: #f8f2f6;
-  color: #9d5886;
+  background-color: #ebfffc;
+  color: #00947e;
 }
 
 /* line 216, node_modules/bulma/sass/elements/button.sass */
 .button.is-primary.is-light:hover, .button.is-primary.is-light.is-hovered {
-  background-color: #f3eaf0;
+  background-color: #defffa;
   border-color: transparent;
-  color: #9d5886;
+  color: #00947e;
 }
 
 /* line 221, node_modules/bulma/sass/elements/button.sass */
 .button.is-primary.is-light:active, .button.is-primary.is-light.is-active {
-  background-color: #efe2ea;
+  background-color: #d1fff8;
   border-color: transparent;
-  color: #9d5886;
+  color: #00947e;
 }
 
 /* line 120, node_modules/bulma/sass/elements/button.sass */
 .button.is-link {
-  background-color: #FA7C91;
+  background-color: #3273dc;
   border-color: transparent;
   color: #fff;
 }
 
 /* line 124, node_modules/bulma/sass/elements/button.sass */
 .button.is-link:hover, .button.is-link.is-hovered {
-  background-color: #fa7087;
+  background-color: #276cda;
   border-color: transparent;
   color: #fff;
 }
@@ -25909,13 +25914,13 @@ fieldset[disabled] .button.is-primary.is-inverted.is-outlined {
 
 /* line 133, node_modules/bulma/sass/elements/button.sass */
 .button.is-link:focus:not(:active), .button.is-link.is-focused:not(:active) {
-  -webkit-box-shadow: 0 0 0 0.125em rgba(250, 124, 145, 0.25);
-          box-shadow: 0 0 0 0.125em rgba(250, 124, 145, 0.25);
+  -webkit-box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+          box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
 }
 
 /* line 135, node_modules/bulma/sass/elements/button.sass */
 .button.is-link:active, .button.is-link.is-active {
-  background-color: #f9637c;
+  background-color: #2366d1;
   border-color: transparent;
   color: #fff;
 }
@@ -25923,7 +25928,7 @@ fieldset[disabled] .button.is-primary.is-inverted.is-outlined {
 /* line 140, node_modules/bulma/sass/elements/button.sass */
 .button.is-link[disabled],
 fieldset[disabled] .button.is-link {
-  background-color: #FA7C91;
+  background-color: #3273dc;
   border-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
@@ -25932,7 +25937,7 @@ fieldset[disabled] .button.is-link {
 /* line 145, node_modules/bulma/sass/elements/button.sass */
 .button.is-link.is-inverted {
   background-color: #fff;
-  color: #FA7C91;
+  color: #3273dc;
 }
 
 /* line 148, node_modules/bulma/sass/elements/button.sass */
@@ -25947,7 +25952,7 @@ fieldset[disabled] .button.is-link.is-inverted {
   border-color: transparent;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #FA7C91;
+  color: #3273dc;
 }
 
 /* line 158, node_modules/bulma/sass/elements/button.sass */
@@ -25958,20 +25963,20 @@ fieldset[disabled] .button.is-link.is-inverted {
 /* line 160, node_modules/bulma/sass/elements/button.sass */
 .button.is-link.is-outlined {
   background-color: transparent;
-  border-color: #FA7C91;
-  color: #FA7C91;
+  border-color: #3273dc;
+  color: #3273dc;
 }
 
 /* line 164, node_modules/bulma/sass/elements/button.sass */
 .button.is-link.is-outlined:hover, .button.is-link.is-outlined.is-hovered, .button.is-link.is-outlined:focus, .button.is-link.is-outlined.is-focused {
-  background-color: #FA7C91;
-  border-color: #FA7C91;
+  background-color: #3273dc;
+  border-color: #3273dc;
   color: #fff;
 }
 
 /* line 172, node_modules/bulma/sass/elements/button.sass */
 .button.is-link.is-outlined.is-loading::after {
-  border-color: transparent transparent #FA7C91 #FA7C91 !important;
+  border-color: transparent transparent #3273dc #3273dc !important;
 }
 
 /* line 178, node_modules/bulma/sass/elements/button.sass */
@@ -25983,10 +25988,10 @@ fieldset[disabled] .button.is-link.is-inverted {
 .button.is-link.is-outlined[disabled],
 fieldset[disabled] .button.is-link.is-outlined {
   background-color: transparent;
-  border-color: #FA7C91;
+  border-color: #3273dc;
   -webkit-box-shadow: none;
           box-shadow: none;
-  color: #FA7C91;
+  color: #3273dc;
 }
 
 /* line 186, node_modules/bulma/sass/elements/button.sass */
@@ -25999,12 +26004,12 @@ fieldset[disabled] .button.is-link.is-outlined {
 /* line 190, node_modules/bulma/sass/elements/button.sass */
 .button.is-link.is-inverted.is-outlined:hover, .button.is-link.is-inverted.is-outlined.is-hovered, .button.is-link.is-inverted.is-outlined:focus, .button.is-link.is-inverted.is-outlined.is-focused {
   background-color: #fff;
-  color: #FA7C91;
+  color: #3273dc;
 }
 
 /* line 201, node_modules/bulma/sass/elements/button.sass */
 .button.is-link.is-inverted.is-outlined.is-loading:hover::after, .button.is-link.is-inverted.is-outlined.is-loading.is-hovered::after, .button.is-link.is-inverted.is-outlined.is-loading:focus::after, .button.is-link.is-inverted.is-outlined.is-loading.is-focused::after {
-  border-color: transparent transparent #FA7C91 #FA7C91 !important;
+  border-color: transparent transparent #3273dc #3273dc !important;
 }
 
 /* line 203, node_modules/bulma/sass/elements/button.sass */
@@ -26019,22 +26024,22 @@ fieldset[disabled] .button.is-link.is-inverted.is-outlined {
 
 /* line 213, node_modules/bulma/sass/elements/button.sass */
 .button.is-link.is-light {
-  background-color: #feebef;
-  color: #ac0722;
+  background-color: #eef3fc;
+  color: #2160c4;
 }
 
 /* line 216, node_modules/bulma/sass/elements/button.sass */
 .button.is-link.is-light:hover, .button.is-link.is-light.is-hovered {
-  background-color: #fedfe4;
+  background-color: #e3ecfa;
   border-color: transparent;
-  color: #ac0722;
+  color: #2160c4;
 }
 
 /* line 221, node_modules/bulma/sass/elements/button.sass */
 .button.is-link.is-light:active, .button.is-link.is-light.is-active {
-  background-color: #fdd3da;
+  background-color: #d8e4f8;
   border-color: transparent;
-  color: #ac0722;
+  color: #2160c4;
 }
 
 /* line 120, node_modules/bulma/sass/elements/button.sass */
@@ -27363,13 +27368,13 @@ fieldset[disabled] .button {
 
 /* line 34, node_modules/bulma/sass/elements/notification.sass */
 .notification.is-primary {
-  background-color: #8A4D76;
+  background-color: #00d1b2;
   color: #fff;
 }
 
 /* line 34, node_modules/bulma/sass/elements/notification.sass */
 .notification.is-link {
-  background-color: #FA7C91;
+  background-color: #3273dc;
   color: #fff;
 }
 
@@ -27417,17 +27422,17 @@ fieldset[disabled] .button {
 
 /* line 20, node_modules/bulma/sass/elements/progress.sass */
 .progress::-webkit-progress-value {
-  background-color: #757763;
+  background-color: #4a4a4a;
 }
 
 /* line 22, node_modules/bulma/sass/elements/progress.sass */
 .progress::-moz-progress-bar {
-  background-color: #757763;
+  background-color: #4a4a4a;
 }
 
 /* line 24, node_modules/bulma/sass/elements/progress.sass */
 .progress::-ms-fill {
-  background-color: #757763;
+  background-color: #4a4a4a;
   border: none;
 }
 
@@ -27517,44 +27522,44 @@ fieldset[disabled] .button {
 
 /* line 31, node_modules/bulma/sass/elements/progress.sass */
 .progress.is-primary::-webkit-progress-value {
-  background-color: #8A4D76;
+  background-color: #00d1b2;
 }
 
 /* line 33, node_modules/bulma/sass/elements/progress.sass */
 .progress.is-primary::-moz-progress-bar {
-  background-color: #8A4D76;
+  background-color: #00d1b2;
 }
 
 /* line 35, node_modules/bulma/sass/elements/progress.sass */
 .progress.is-primary::-ms-fill {
-  background-color: #8A4D76;
+  background-color: #00d1b2;
 }
 
 /* line 37, node_modules/bulma/sass/elements/progress.sass */
 .progress.is-primary:indeterminate {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #8A4D76), color-stop(30%, #ededed));
-  background-image: linear-gradient(to right, #8A4D76 30%, #ededed 30%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #00d1b2), color-stop(30%, #ededed));
+  background-image: linear-gradient(to right, #00d1b2 30%, #ededed 30%);
 }
 
 /* line 31, node_modules/bulma/sass/elements/progress.sass */
 .progress.is-link::-webkit-progress-value {
-  background-color: #FA7C91;
+  background-color: #3273dc;
 }
 
 /* line 33, node_modules/bulma/sass/elements/progress.sass */
 .progress.is-link::-moz-progress-bar {
-  background-color: #FA7C91;
+  background-color: #3273dc;
 }
 
 /* line 35, node_modules/bulma/sass/elements/progress.sass */
 .progress.is-link::-ms-fill {
-  background-color: #FA7C91;
+  background-color: #3273dc;
 }
 
 /* line 37, node_modules/bulma/sass/elements/progress.sass */
 .progress.is-link:indeterminate {
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #FA7C91), color-stop(30%, #ededed));
-  background-image: linear-gradient(to right, #FA7C91 30%, #ededed 30%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #3273dc), color-stop(30%, #ededed));
+  background-image: linear-gradient(to right, #3273dc 30%, #ededed 30%);
 }
 
 /* line 31, node_modules/bulma/sass/elements/progress.sass */
@@ -27652,8 +27657,8 @@ fieldset[disabled] .button {
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
   background-color: #ededed;
-  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #757763), color-stop(30%, #ededed));
-  background-image: linear-gradient(to right, #757763 30%, #ededed 30%);
+  background-image: -webkit-gradient(linear, left top, right top, color-stop(30%, #4a4a4a), color-stop(30%, #ededed));
+  background-image: linear-gradient(to right, #4a4a4a 30%, #ededed 30%);
   background-position: top left;
   background-repeat: no-repeat;
   background-size: 150% 150%;
@@ -27752,16 +27757,16 @@ fieldset[disabled] .button {
 /* line 40, node_modules/bulma/sass/elements/table.sass */
 .table td.is-primary,
 .table th.is-primary {
-  background-color: #8A4D76;
-  border-color: #8A4D76;
+  background-color: #00d1b2;
+  border-color: #00d1b2;
   color: #fff;
 }
 
 /* line 40, node_modules/bulma/sass/elements/table.sass */
 .table td.is-link,
 .table th.is-link {
-  background-color: #FA7C91;
-  border-color: #FA7C91;
+  background-color: #3273dc;
+  border-color: #3273dc;
   color: #fff;
 }
 
@@ -27807,7 +27812,7 @@ fieldset[disabled] .button {
 /* line 48, node_modules/bulma/sass/elements/table.sass */
 .table td.is-selected,
 .table th.is-selected {
-  background-color: #8A4D76;
+  background-color: #00d1b2;
   color: #fff;
 }
 
@@ -27831,7 +27836,7 @@ fieldset[disabled] .button {
 
 /* line 59, node_modules/bulma/sass/elements/table.sass */
 .table tr.is-selected {
-  background-color: #8A4D76;
+  background-color: #00d1b2;
   color: #fff;
 }
 
@@ -28034,7 +28039,7 @@ fieldset[disabled] .button {
           align-items: center;
   background-color: whitesmoke;
   border-radius: 4px;
-  color: #757763;
+  color: #4a4a4a;
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
@@ -28081,26 +28086,26 @@ fieldset[disabled] .button {
 
 /* line 69, node_modules/bulma/sass/elements/tag.sass */
 .tag:not(body).is-primary {
-  background-color: #8A4D76;
+  background-color: #00d1b2;
   color: #fff;
 }
 
 /* line 76, node_modules/bulma/sass/elements/tag.sass */
 .tag:not(body).is-primary.is-light {
-  background-color: #f8f2f6;
-  color: #9d5886;
+  background-color: #ebfffc;
+  color: #00947e;
 }
 
 /* line 69, node_modules/bulma/sass/elements/tag.sass */
 .tag:not(body).is-link {
-  background-color: #FA7C91;
+  background-color: #3273dc;
   color: #fff;
 }
 
 /* line 76, node_modules/bulma/sass/elements/tag.sass */
 .tag:not(body).is-link.is-light {
-  background-color: #feebef;
-  color: #ac0722;
+  background-color: #eef3fc;
+  color: #2160c4;
 }
 
 /* line 69, node_modules/bulma/sass/elements/tag.sass */
@@ -28331,7 +28336,7 @@ a.tag:hover {
 
 /* line 54, node_modules/bulma/sass/elements/title.sass */
 .subtitle {
-  color: #757763;
+  color: #4a4a4a;
   font-size: 1.25rem;
   font-weight: 400;
   line-height: 1.25;
@@ -28458,14 +28463,14 @@ a.tag:hover {
 
 /* line 36, node_modules/bulma/sass/form/shared.sass */
 .input:hover, .textarea:hover, .select select:hover, .is-hovered.input, .is-hovered.textarea, .select select.is-hovered {
-  border-color: #D0D1CD;
+  border-color: #b5b5b5;
 }
 
 /* line 39, node_modules/bulma/sass/form/shared.sass */
 .input:focus, .textarea:focus, .select select:focus, .is-focused.input, .is-focused.textarea, .select select.is-focused, .input:active, .textarea:active, .select select:active, .is-active.input, .is-active.textarea, .select select.is-active {
-  border-color: #FA7C91;
-  -webkit-box-shadow: 0 0 0 0.125em rgba(250, 124, 145, 0.25);
-          box-shadow: 0 0 0 0.125em rgba(250, 124, 145, 0.25);
+  border-color: #3273dc;
+  -webkit-box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+          box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
 }
 
 /* line 45, node_modules/bulma/sass/form/shared.sass */
@@ -28519,8 +28524,8 @@ fieldset[disabled] .select select:-ms-input-placeholder,
 
 /* line 5, node_modules/bulma/sass/form/input-textarea.sass */
 .input, .textarea {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  -webkit-box-shadow: inset 0 0.0625em 0.125em rgba(10, 10, 10, 0.05);
+          box-shadow: inset 0 0.0625em 0.125em rgba(10, 10, 10, 0.05);
   max-width: 100%;
   width: 100%;
 }
@@ -28577,24 +28582,24 @@ fieldset[disabled] .select select:-ms-input-placeholder,
 
 /* line 15, node_modules/bulma/sass/form/input-textarea.sass */
 .is-primary.input, .is-primary.textarea {
-  border-color: #8A4D76;
+  border-color: #00d1b2;
 }
 
 /* line 17, node_modules/bulma/sass/form/input-textarea.sass */
 .is-primary.input:focus, .is-primary.textarea:focus, .is-primary.is-focused.input, .is-primary.is-focused.textarea, .is-primary.input:active, .is-primary.textarea:active, .is-primary.is-active.input, .is-primary.is-active.textarea {
-  -webkit-box-shadow: 0 0 0 0.125em rgba(138, 77, 118, 0.25);
-          box-shadow: 0 0 0 0.125em rgba(138, 77, 118, 0.25);
+  -webkit-box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
+          box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
 }
 
 /* line 15, node_modules/bulma/sass/form/input-textarea.sass */
 .is-link.input, .is-link.textarea {
-  border-color: #FA7C91;
+  border-color: #3273dc;
 }
 
 /* line 17, node_modules/bulma/sass/form/input-textarea.sass */
 .is-link.input:focus, .is-link.textarea:focus, .is-link.is-focused.input, .is-link.is-focused.textarea, .is-link.input:active, .is-link.textarea:active, .is-link.is-active.input, .is-link.is-active.textarea {
-  -webkit-box-shadow: 0 0 0 0.125em rgba(250, 124, 145, 0.25);
-          box-shadow: 0 0 0 0.125em rgba(250, 124, 145, 0.25);
+  -webkit-box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+          box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
 }
 
 /* line 15, node_modules/bulma/sass/form/input-textarea.sass */
@@ -28757,7 +28762,7 @@ fieldset[disabled] .radio {
 
 /* line 9, node_modules/bulma/sass/form/select.sass */
 .select:not(.is-multiple):not(.is-loading)::after {
-  border-color: #FA7C91;
+  border-color: #3273dc;
   right: 1.125em;
   z-index: 4;
 }
@@ -28895,44 +28900,44 @@ fieldset[disabled] .select select:hover {
 
 /* line 45, node_modules/bulma/sass/form/select.sass */
 .select.is-primary:not(:hover)::after {
-  border-color: #8A4D76;
+  border-color: #00d1b2;
 }
 
 /* line 47, node_modules/bulma/sass/form/select.sass */
 .select.is-primary select {
-  border-color: #8A4D76;
+  border-color: #00d1b2;
 }
 
 /* line 49, node_modules/bulma/sass/form/select.sass */
 .select.is-primary select:hover, .select.is-primary select.is-hovered {
-  border-color: #7a4468;
+  border-color: #00b89c;
 }
 
 /* line 52, node_modules/bulma/sass/form/select.sass */
 .select.is-primary select:focus, .select.is-primary select.is-focused, .select.is-primary select:active, .select.is-primary select.is-active {
-  -webkit-box-shadow: 0 0 0 0.125em rgba(138, 77, 118, 0.25);
-          box-shadow: 0 0 0 0.125em rgba(138, 77, 118, 0.25);
+  -webkit-box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
+          box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
 }
 
 /* line 45, node_modules/bulma/sass/form/select.sass */
 .select.is-link:not(:hover)::after {
-  border-color: #FA7C91;
+  border-color: #3273dc;
 }
 
 /* line 47, node_modules/bulma/sass/form/select.sass */
 .select.is-link select {
-  border-color: #FA7C91;
+  border-color: #3273dc;
 }
 
 /* line 49, node_modules/bulma/sass/form/select.sass */
 .select.is-link select:hover, .select.is-link select.is-hovered {
-  border-color: #f9637c;
+  border-color: #2366d1;
 }
 
 /* line 52, node_modules/bulma/sass/form/select.sass */
 .select.is-link select:focus, .select.is-link select.is-focused, .select.is-link select:active, .select.is-link select.is-active {
-  -webkit-box-shadow: 0 0 0 0.125em rgba(250, 124, 145, 0.25);
-          box-shadow: 0 0 0 0.125em rgba(250, 124, 145, 0.25);
+  -webkit-box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
+          box-shadow: 0 0 0 0.125em rgba(50, 115, 220, 0.25);
 }
 
 /* line 45, node_modules/bulma/sass/form/select.sass */
@@ -29207,14 +29212,14 @@ fieldset[disabled] .select select:hover {
 
 /* line 25, node_modules/bulma/sass/form/file.sass */
 .file.is-primary .file-cta {
-  background-color: #8A4D76;
+  background-color: #00d1b2;
   border-color: transparent;
   color: #fff;
 }
 
 /* line 31, node_modules/bulma/sass/form/file.sass */
 .file.is-primary:hover .file-cta, .file.is-primary.is-hovered .file-cta {
-  background-color: #82486f;
+  background-color: #00c4a7;
   border-color: transparent;
   color: #fff;
 }
@@ -29222,28 +29227,28 @@ fieldset[disabled] .select select:hover {
 /* line 37, node_modules/bulma/sass/form/file.sass */
 .file.is-primary:focus .file-cta, .file.is-primary.is-focused .file-cta {
   border-color: transparent;
-  -webkit-box-shadow: 0 0 0.5em rgba(138, 77, 118, 0.25);
-          box-shadow: 0 0 0.5em rgba(138, 77, 118, 0.25);
+  -webkit-box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.25);
+          box-shadow: 0 0 0.5em rgba(0, 209, 178, 0.25);
   color: #fff;
 }
 
 /* line 43, node_modules/bulma/sass/form/file.sass */
 .file.is-primary:active .file-cta, .file.is-primary.is-active .file-cta {
-  background-color: #7a4468;
+  background-color: #00b89c;
   border-color: transparent;
   color: #fff;
 }
 
 /* line 25, node_modules/bulma/sass/form/file.sass */
 .file.is-link .file-cta {
-  background-color: #FA7C91;
+  background-color: #3273dc;
   border-color: transparent;
   color: #fff;
 }
 
 /* line 31, node_modules/bulma/sass/form/file.sass */
 .file.is-link:hover .file-cta, .file.is-link.is-hovered .file-cta {
-  background-color: #fa7087;
+  background-color: #276cda;
   border-color: transparent;
   color: #fff;
 }
@@ -29251,14 +29256,14 @@ fieldset[disabled] .select select:hover {
 /* line 37, node_modules/bulma/sass/form/file.sass */
 .file.is-link:focus .file-cta, .file.is-link.is-focused .file-cta {
   border-color: transparent;
-  -webkit-box-shadow: 0 0 0.5em rgba(250, 124, 145, 0.25);
-          box-shadow: 0 0 0.5em rgba(250, 124, 145, 0.25);
+  -webkit-box-shadow: 0 0 0.5em rgba(50, 115, 220, 0.25);
+          box-shadow: 0 0 0.5em rgba(50, 115, 220, 0.25);
   color: #fff;
 }
 
 /* line 43, node_modules/bulma/sass/form/file.sass */
 .file.is-link:active .file-cta, .file.is-link.is-active .file-cta {
-  background-color: #f9637c;
+  background-color: #2366d1;
   border-color: transparent;
   color: #fff;
 }
@@ -29590,7 +29595,7 @@ fieldset[disabled] .select select:hover {
 /* line 158, node_modules/bulma/sass/form/file.sass */
 .file-cta {
   background-color: whitesmoke;
-  color: #757763;
+  color: #4a4a4a;
 }
 
 /* line 162, node_modules/bulma/sass/form/file.sass */
@@ -29683,12 +29688,12 @@ fieldset[disabled] .select select:hover {
 
 /* line 27, node_modules/bulma/sass/form/tools.sass */
 .help.is-primary {
-  color: #8A4D76;
+  color: #00d1b2;
 }
 
 /* line 27, node_modules/bulma/sass/form/tools.sass */
 .help.is-link {
-  color: #FA7C91;
+  color: #3273dc;
 }
 
 /* line 27, node_modules/bulma/sass/form/tools.sass */
@@ -29996,7 +30001,7 @@ fieldset[disabled] .select select:hover {
 .control.has-icons-left .input:focus ~ .icon,
 .control.has-icons-left .select:focus ~ .icon, .control.has-icons-right .input:focus ~ .icon,
 .control.has-icons-right .select:focus ~ .icon {
-  color: #757763;
+  color: #4a4a4a;
 }
 
 /* line 167, node_modules/bulma/sass/form/tools.sass */
@@ -30087,7 +30092,7 @@ fieldset[disabled] .select select:hover {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #FA7C91;
+  color: #3273dc;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -30126,7 +30131,7 @@ fieldset[disabled] .select select:hover {
 
 /* line 33, node_modules/bulma/sass/components/breadcrumb.sass */
 .breadcrumb li + li::before {
-  color: #D0D1CD;
+  color: #b5b5b5;
   content: "\0002f";
 }
 
@@ -30212,7 +30217,7 @@ fieldset[disabled] .select select:hover {
   background-color: white;
   -webkit-box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
           box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1), 0 0px 0 1px rgba(10, 10, 10, 0.02);
-  color: #757763;
+  color: #4a4a4a;
   max-width: 100%;
   position: relative;
 }
@@ -30374,7 +30379,7 @@ fieldset[disabled] .select select:hover {
 
 /* line 55, node_modules/bulma/sass/components/dropdown.sass */
 .dropdown-item {
-  color: #757763;
+  color: #4a4a4a;
   display: block;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -30401,7 +30406,7 @@ button.dropdown-item:hover {
 /* line 72, node_modules/bulma/sass/components/dropdown.sass */
 a.dropdown-item.is-active,
 button.dropdown-item.is-active {
-  background-color: #FA7C91;
+  background-color: #3273dc;
   color: #fff;
 }
 
@@ -30605,7 +30610,7 @@ button.dropdown-item.is-active {
 
 /* line 23, node_modules/bulma/sass/components/list.sass */
 .list-item:not(a) {
-  color: #757763;
+  color: #4a4a4a;
 }
 
 /* line 25, node_modules/bulma/sass/components/list.sass */
@@ -30627,7 +30632,7 @@ button.dropdown-item.is-active {
 
 /* line 33, node_modules/bulma/sass/components/list.sass */
 .list-item.is-active {
-  background-color: #FA7C91;
+  background-color: #3273dc;
   color: #fff;
 }
 
@@ -30760,7 +30765,7 @@ a.list-item {
 /* line 31, node_modules/bulma/sass/components/menu.sass */
 .menu-list a {
   border-radius: 2px;
-  color: #757763;
+  color: #4a4a4a;
   display: block;
   padding: 0.5em 0.75em;
 }
@@ -30773,7 +30778,7 @@ a.list-item {
 
 /* line 40, node_modules/bulma/sass/components/menu.sass */
 .menu-list a.is-active {
-  background-color: #FA7C91;
+  background-color: #3273dc;
   color: #fff;
 }
 
@@ -30901,36 +30906,36 @@ a.list-item {
 
 /* line 59, node_modules/bulma/sass/components/message.sass */
 .message.is-primary {
-  background-color: #f8f2f6;
+  background-color: #ebfffc;
 }
 
 /* line 61, node_modules/bulma/sass/components/message.sass */
 .message.is-primary .message-header {
-  background-color: #8A4D76;
+  background-color: #00d1b2;
   color: #fff;
 }
 
 /* line 64, node_modules/bulma/sass/components/message.sass */
 .message.is-primary .message-body {
-  border-color: #8A4D76;
-  color: #9d5886;
+  border-color: #00d1b2;
+  color: #00947e;
 }
 
 /* line 59, node_modules/bulma/sass/components/message.sass */
 .message.is-link {
-  background-color: #feebef;
+  background-color: #eef3fc;
 }
 
 /* line 61, node_modules/bulma/sass/components/message.sass */
 .message.is-link .message-header {
-  background-color: #FA7C91;
+  background-color: #3273dc;
   color: #fff;
 }
 
 /* line 64, node_modules/bulma/sass/components/message.sass */
 .message.is-link .message-body {
-  border-color: #FA7C91;
-  color: #ac0722;
+  border-color: #3273dc;
+  color: #2160c4;
 }
 
 /* line 59, node_modules/bulma/sass/components/message.sass */
@@ -31006,7 +31011,7 @@ a.list-item {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #757763;
+  background-color: #4a4a4a;
   border-radius: 4px 4px 0 0;
   color: #fff;
   display: -webkit-box;
@@ -31044,7 +31049,7 @@ a.list-item {
   border-radius: 4px;
   border-style: solid;
   border-width: 0 0 0 4px;
-  color: #757763;
+  color: #4a4a4a;
   padding: 1.25em 1.5em;
 }
 
@@ -31494,7 +31499,7 @@ a.list-item {
 
 /* line 63, node_modules/bulma/sass/components/navbar.sass */
 .navbar.is-primary {
-  background-color: #8A4D76;
+  background-color: #00d1b2;
   color: #fff;
 }
 
@@ -31509,7 +31514,7 @@ a.list-item {
 .navbar.is-primary .navbar-brand .navbar-link:focus,
 .navbar.is-primary .navbar-brand .navbar-link:hover,
 .navbar.is-primary .navbar-brand .navbar-link.is-active {
-  background-color: #7a4468;
+  background-color: #00b89c;
   color: #fff;
 }
 
@@ -31542,7 +31547,7 @@ a.list-item {
   .navbar.is-primary .navbar-end .navbar-link:focus,
   .navbar.is-primary .navbar-end .navbar-link:hover,
   .navbar.is-primary .navbar-end .navbar-link.is-active {
-    background-color: #7a4468;
+    background-color: #00b89c;
     color: #fff;
   }
   /* line 96, node_modules/bulma/sass/components/navbar.sass */
@@ -31554,19 +31559,19 @@ a.list-item {
   .navbar.is-primary .navbar-item.has-dropdown:focus .navbar-link,
   .navbar.is-primary .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-primary .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #7a4468;
+    background-color: #00b89c;
     color: #fff;
   }
   /* line 105, node_modules/bulma/sass/components/navbar.sass */
   .navbar.is-primary .navbar-dropdown a.navbar-item.is-active {
-    background-color: #8A4D76;
+    background-color: #00d1b2;
     color: #fff;
   }
 }
 
 /* line 63, node_modules/bulma/sass/components/navbar.sass */
 .navbar.is-link {
-  background-color: #FA7C91;
+  background-color: #3273dc;
   color: #fff;
 }
 
@@ -31581,7 +31586,7 @@ a.list-item {
 .navbar.is-link .navbar-brand .navbar-link:focus,
 .navbar.is-link .navbar-brand .navbar-link:hover,
 .navbar.is-link .navbar-brand .navbar-link.is-active {
-  background-color: #f9637c;
+  background-color: #2366d1;
   color: #fff;
 }
 
@@ -31614,7 +31619,7 @@ a.list-item {
   .navbar.is-link .navbar-end .navbar-link:focus,
   .navbar.is-link .navbar-end .navbar-link:hover,
   .navbar.is-link .navbar-end .navbar-link.is-active {
-    background-color: #f9637c;
+    background-color: #2366d1;
     color: #fff;
   }
   /* line 96, node_modules/bulma/sass/components/navbar.sass */
@@ -31626,12 +31631,12 @@ a.list-item {
   .navbar.is-link .navbar-item.has-dropdown:focus .navbar-link,
   .navbar.is-link .navbar-item.has-dropdown:hover .navbar-link,
   .navbar.is-link .navbar-item.has-dropdown.is-active .navbar-link {
-    background-color: #f9637c;
+    background-color: #2366d1;
     color: #fff;
   }
   /* line 105, node_modules/bulma/sass/components/navbar.sass */
   .navbar.is-link .navbar-dropdown a.navbar-item.is-active {
-    background-color: #FA7C91;
+    background-color: #3273dc;
     color: #fff;
   }
 }
@@ -32007,7 +32012,7 @@ body.has-navbar-fixed-bottom {
 
 /* line 151, node_modules/bulma/sass/components/navbar.sass */
 .navbar-burger {
-  color: #757763;
+  color: #4a4a4a;
   cursor: pointer;
   display: block;
   height: 3.25rem;
@@ -32081,7 +32086,7 @@ body.has-navbar-fixed-bottom {
 /* line 159, node_modules/bulma/sass/components/navbar.sass */
 .navbar-item,
 .navbar-link {
-  color: #757763;
+  color: #4a4a4a;
   display: block;
   line-height: 1.5;
   padding: 0.5rem 0.75rem;
@@ -32108,7 +32113,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 .navbar-link:hover,
 .navbar-link.is-active {
   background-color: #fafafa;
-  color: #FA7C91;
+  color: #3273dc;
 }
 
 /* line 181, node_modules/bulma/sass/components/navbar.sass */
@@ -32150,16 +32155,16 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 /* line 196, node_modules/bulma/sass/components/navbar.sass */
 .navbar-item.is-tab:focus, .navbar-item.is-tab:hover {
   background-color: transparent;
-  border-bottom-color: #FA7C91;
+  border-bottom-color: #3273dc;
 }
 
 /* line 200, node_modules/bulma/sass/components/navbar.sass */
 .navbar-item.is-tab.is-active {
   background-color: transparent;
-  border-bottom-color: #FA7C91;
+  border-bottom-color: #3273dc;
   border-bottom-style: solid;
   border-bottom-width: 3px;
-  color: #FA7C91;
+  color: #3273dc;
   padding-bottom: calc(0.5rem - 3px);
 }
 
@@ -32179,7 +32184,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 
 /* line 214, node_modules/bulma/sass/components/navbar.sass */
 .navbar-link:not(.is-arrowless)::after {
-  border-color: #FA7C91;
+  border-color: #3273dc;
   margin-top: -0.375em;
   right: 1.125em;
 }
@@ -32326,7 +32331,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   /* line 313, node_modules/bulma/sass/components/navbar.sass */
   .navbar.is-transparent .navbar-dropdown a.navbar-item.is-active {
     background-color: whitesmoke;
-    color: #FA7C91;
+    color: #3273dc;
   }
   /* line 316, node_modules/bulma/sass/components/navbar.sass */
   .navbar-burger {
@@ -32435,7 +32440,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
   /* line 378, node_modules/bulma/sass/components/navbar.sass */
   .navbar-dropdown a.navbar-item.is-active {
     background-color: whitesmoke;
-    color: #FA7C91;
+    color: #3273dc;
   }
   /* line 381, node_modules/bulma/sass/components/navbar.sass */
   .navbar.is-spaced .navbar-dropdown, .navbar-dropdown.is-boxed {
@@ -32613,7 +32618,7 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 .pagination-previous:hover,
 .pagination-next:hover,
 .pagination-link:hover {
-  border-color: #D0D1CD;
+  border-color: #b5b5b5;
   color: #363636;
 }
 
@@ -32654,14 +32659,14 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 
 /* line 99, node_modules/bulma/sass/components/pagination.sass */
 .pagination-link.is-current {
-  background-color: #FA7C91;
-  border-color: #FA7C91;
+  background-color: #3273dc;
+  border-color: #3273dc;
   color: #fff;
 }
 
 /* line 104, node_modules/bulma/sass/components/pagination.sass */
 .pagination-ellipsis {
-  color: #D0D1CD;
+  color: #b5b5b5;
   pointer-events: none;
 }
 
@@ -32852,34 +32857,34 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 
 /* line 41, node_modules/bulma/sass/components/panel.sass */
 .panel.is-primary .panel-heading {
-  background-color: #8A4D76;
+  background-color: #00d1b2;
   color: #fff;
 }
 
 /* line 44, node_modules/bulma/sass/components/panel.sass */
 .panel.is-primary .panel-tabs a.is-active {
-  border-bottom-color: #8A4D76;
+  border-bottom-color: #00d1b2;
 }
 
 /* line 46, node_modules/bulma/sass/components/panel.sass */
 .panel.is-primary .panel-block.is-active .panel-icon {
-  color: #8A4D76;
+  color: #00d1b2;
 }
 
 /* line 41, node_modules/bulma/sass/components/panel.sass */
 .panel.is-link .panel-heading {
-  background-color: #FA7C91;
+  background-color: #3273dc;
   color: #fff;
 }
 
 /* line 44, node_modules/bulma/sass/components/panel.sass */
 .panel.is-link .panel-tabs a.is-active {
-  border-bottom-color: #FA7C91;
+  border-bottom-color: #3273dc;
 }
 
 /* line 46, node_modules/bulma/sass/components/panel.sass */
 .panel.is-link .panel-block.is-active .panel-icon {
-  color: #FA7C91;
+  color: #3273dc;
 }
 
 /* line 41, node_modules/bulma/sass/components/panel.sass */
@@ -32986,18 +32991,18 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 
 /* line 73, node_modules/bulma/sass/components/panel.sass */
 .panel-tabs a.is-active {
-  border-bottom-color: #757763;
+  border-bottom-color: #4a4a4a;
   color: #363636;
 }
 
 /* line 78, node_modules/bulma/sass/components/panel.sass */
 .panel-list a {
-  color: #757763;
+  color: #4a4a4a;
 }
 
 /* line 80, node_modules/bulma/sass/components/panel.sass */
 .panel-list a:hover {
-  color: #FA7C91;
+  color: #3273dc;
 }
 
 /* line 83, node_modules/bulma/sass/components/panel.sass */
@@ -33038,13 +33043,13 @@ a.navbar-item:focus, a.navbar-item:focus-within, a.navbar-item:hover, a.navbar-i
 
 /* line 97, node_modules/bulma/sass/components/panel.sass */
 .panel-block.is-active {
-  border-left-color: #FA7C91;
+  border-left-color: #3273dc;
   color: #363636;
 }
 
 /* line 100, node_modules/bulma/sass/components/panel.sass */
 .panel-block.is-active .panel-icon {
-  color: #FA7C91;
+  color: #3273dc;
 }
 
 /* line 102, node_modules/bulma/sass/components/panel.sass */
@@ -33110,7 +33115,7 @@ label.panel-block:hover {
   border-bottom-color: #dbdbdb;
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  color: #757763;
+  color: #4a4a4a;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -33135,8 +33140,8 @@ label.panel-block:hover {
 
 /* line 57, node_modules/bulma/sass/components/tabs.sass */
 .tabs li.is-active a {
-  border-bottom-color: #FA7C91;
-  color: #FA7C91;
+  border-bottom-color: #3273dc;
+  color: #3273dc;
 }
 
 /* line 60, node_modules/bulma/sass/components/tabs.sass */
@@ -33249,7 +33254,7 @@ label.panel-block:hover {
 /* line 116, node_modules/bulma/sass/components/tabs.sass */
 .tabs.is-toggle a:hover {
   background-color: whitesmoke;
-  border-color: #D0D1CD;
+  border-color: #b5b5b5;
   z-index: 2;
 }
 
@@ -33270,8 +33275,8 @@ label.panel-block:hover {
 
 /* line 128, node_modules/bulma/sass/components/tabs.sass */
 .tabs.is-toggle li.is-active a {
-  background-color: #FA7C91;
-  border-color: #FA7C91;
+  background-color: #3273dc;
+  border-color: #3273dc;
   color: #fff;
   z-index: 1;
 }
@@ -35670,7 +35675,7 @@ label.panel-block:hover {
 
 /* line 17, node_modules/bulma/sass/layout/hero.sass */
 .hero.is-primary {
-  background-color: #8A4D76;
+  background-color: #00d1b2;
   color: #fff;
 }
 
@@ -35699,7 +35704,7 @@ label.panel-block:hover {
 @media screen and (max-width: 1087px) {
   /* line 30, node_modules/bulma/sass/layout/hero.sass */
   .hero.is-primary .navbar-menu {
-    background-color: #8A4D76;
+    background-color: #00d1b2;
   }
 }
 
@@ -35713,7 +35718,7 @@ label.panel-block:hover {
 .hero.is-primary a.navbar-item:hover, .hero.is-primary a.navbar-item.is-active,
 .hero.is-primary .navbar-link:hover,
 .hero.is-primary .navbar-link.is-active {
-  background-color: #7a4468;
+  background-color: #00b89c;
   color: #fff;
 }
 
@@ -35747,24 +35752,24 @@ label.panel-block:hover {
 .hero.is-primary .tabs.is-boxed li.is-active a, .hero.is-primary .tabs.is-boxed li.is-active a:hover, .hero.is-primary .tabs.is-toggle li.is-active a, .hero.is-primary .tabs.is-toggle li.is-active a:hover {
   background-color: #fff;
   border-color: #fff;
-  color: #8A4D76;
+  color: #00d1b2;
 }
 
 /* line 64, node_modules/bulma/sass/layout/hero.sass */
 .hero.is-primary.is-bold {
-  background-image: linear-gradient(141deg, #713367 0%, #8A4D76 71%, #a05079 100%);
+  background-image: linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e7eb 100%);
 }
 
 @media screen and (max-width: 768px) {
   /* line 69, node_modules/bulma/sass/layout/hero.sass */
   .hero.is-primary.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, #713367 0%, #8A4D76 71%, #a05079 100%);
+    background-image: linear-gradient(141deg, #009e6c 0%, #00d1b2 71%, #00e7eb 100%);
   }
 }
 
 /* line 17, node_modules/bulma/sass/layout/hero.sass */
 .hero.is-link {
-  background-color: #FA7C91;
+  background-color: #3273dc;
   color: #fff;
 }
 
@@ -35793,7 +35798,7 @@ label.panel-block:hover {
 @media screen and (max-width: 1087px) {
   /* line 30, node_modules/bulma/sass/layout/hero.sass */
   .hero.is-link .navbar-menu {
-    background-color: #FA7C91;
+    background-color: #3273dc;
   }
 }
 
@@ -35807,7 +35812,7 @@ label.panel-block:hover {
 .hero.is-link a.navbar-item:hover, .hero.is-link a.navbar-item.is-active,
 .hero.is-link .navbar-link:hover,
 .hero.is-link .navbar-link.is-active {
-  background-color: #f9637c;
+  background-color: #2366d1;
   color: #fff;
 }
 
@@ -35841,18 +35846,18 @@ label.panel-block:hover {
 .hero.is-link .tabs.is-boxed li.is-active a, .hero.is-link .tabs.is-boxed li.is-active a:hover, .hero.is-link .tabs.is-toggle li.is-active a, .hero.is-link .tabs.is-toggle li.is-active a:hover {
   background-color: #fff;
   border-color: #fff;
-  color: #FA7C91;
+  color: #3273dc;
 }
 
 /* line 64, node_modules/bulma/sass/layout/hero.sass */
 .hero.is-link.is-bold {
-  background-image: linear-gradient(141deg, #ff4482 0%, #FA7C91 71%, #fe9292 100%);
+  background-image: linear-gradient(141deg, #1577c6 0%, #3273dc 71%, #4366e5 100%);
 }
 
 @media screen and (max-width: 768px) {
   /* line 69, node_modules/bulma/sass/layout/hero.sass */
   .hero.is-link.is-bold .navbar-menu {
-    background-image: linear-gradient(141deg, #ff4482 0%, #FA7C91 71%, #fe9292 100%);
+    background-image: linear-gradient(141deg, #1577c6 0%, #3273dc 71%, #4366e5 100%);
   }
 }
 
