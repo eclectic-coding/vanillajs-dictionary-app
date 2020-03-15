@@ -27,6 +27,7 @@ function captureValue(event) {
   getWord(this.value)
   valueEntered.value = ''
 }
+
 valueEntered.addEventListener('keydown', captureValue, false)
 
 const getTypes = (word) => {
@@ -58,8 +59,12 @@ const getWord = (word) => {
 }
 
 const getDefinitions = (word) => {
-    fetchData(word, 'definitions')
-      .then(data => console.log(data))
+  fetchData(word, 'definitions')
+    .then(data => {
+      const defList = data.definitions
+      wordDefinition.innerHTML += defList[0].definition + '<br>'
+      wordDefinition.innerHTML += defList[1].definition
+    })
 }
 
 
