@@ -41,7 +41,7 @@
     "jshint": "2.11.0",
     "jshint-stylish": "2.2.1",
     "lazypipe": "1.0.2",
-    "node-sass": "4.13.1"
+    "node-sass": "7.0.0"
   },
   "scripts": {
     "css-build": "node-sass --omit-source-map-url src/scss/main.scss dist/css/main.css && node-sass --output-style compressed src/scss/main.scss dist/css/main.min.css",
