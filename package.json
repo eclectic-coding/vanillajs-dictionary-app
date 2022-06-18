@@ -24,7 +24,7 @@
     "bulma": "0.8.0",
     "bulma-helpers": "0.3.8",
     "cssnano": "4.1.10",
-    "del": "5.1.0",
+    "del": "6.1.1",
     "dotenv": "8.2.0",
     "gulp": "4.0.2",
     "gulp-cache": "1.1.3",
