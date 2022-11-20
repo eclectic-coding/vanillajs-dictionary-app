@@ -19,7 +19,7 @@
     "> 0.25%"
   ],
   "devDependencies": {
-    "autoprefixer": "9.7.4",
+    "autoprefixer": "10.4.13",
     "browser-sync": "2.26.7",
     "bulma": "0.8.0",
     "bulma-helpers": "0.3.8",
